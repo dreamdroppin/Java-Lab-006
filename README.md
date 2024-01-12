@@ -19,7 +19,7 @@ Analyze the execution of the loop in the Java program [LoopExecAnalysis.java](sr
 **Objective:**
 Write a method to approximate the square root of a given number.
 
-1. Implement a method named `squareRoot` (don't use the `Math.sqrt` method) that takes a double parameter and returns an approximation of its square root.
+1. Create a Java class named `src/MySqRoot.java` and implement a method named `squareRoot` (don't use the `Math.sqrt` method) that takes a double parameter and returns an approximation of its square root.
 2. Use the provided formula for the approximation: $$x_1 = \frac{x_0 + \frac{a}{x_0}}{2}$$
     * Hint: this is a loop so x1 is calculated from x0 and x2 is calculated from x1, etc.
     * Hint: an initial guess for the square root (i.e. x0) should be the number you wish to find the square-root for divided by 2.
