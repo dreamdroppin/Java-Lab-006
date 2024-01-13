@@ -20,10 +20,10 @@ Analyze the execution of the loop in the Java program [LoopExecAnalysis.java](sr
 Write a method to approximate the square root of a given number.
 
 1. Create a Java file named `src/MySqRoot.java` and implement a method named `squareRoot` (don't use the `Math.sqrt` method) that takes a double parameter "num" and returns an approximation of its square root.
-2. Use the provided formula for the approximation: $$x_1 = \frac{x_0 + \frac{num}{x_0}}{2}$$
-    * Hint: this is a loop so x1 is calculated from x0 and x2 is calculated from x1, etc.
-    * Hint: an initial guess for the square root (i.e. x0) should be the number you wish to find the square-root for divided by 2.
-3. Iterate until two consecutive estimates differ by less than 0.0001.
+2. Use the provided formula for the approximation (i.e. each guess of $x_n$), your guess for the square root: $$x_1 = \frac{x_0 + \frac{num}{x_0}}{2}$$
+    * Hint: This is a loop so $x_1$ is calculated from $x_0$ and $x_2$ is calculated from $x_1$, etc.
+    * Hint: An initial guess for the square root (i.e. $x_0$) should be the number you wish to find the square-root for divided by 2.
+3. Iterate until two consecutive estimates of the squre root (i.e. your $x_n$'s differ by less than 0.0001.
     * Hint: you can use `Math.abs` to get the absolute value of this difference.
 
 ## Part 3: Abecedarian Word Check
