@@ -26,6 +26,7 @@ i: 2, n: 2
    2
    
 5. Discuss if you can prove that this loop terminates for any positive value of n below this question.
+   
 Yes, once n is less than or equal to i, it'll become false. 
 
 ## Part 2: Square Root Approximation
